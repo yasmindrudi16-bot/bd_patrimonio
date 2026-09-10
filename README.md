@@ -1,43 +1,8 @@
-# bd_patrimonio
-API de Patrimônio
-Descrição
-API REST para cadastrar, consultar, atualizar e excluir patrimônios, contendo informações como item, local, data, valor e número de patrimônio.
-
-Instalação e execução
-git clone <URL_DO_REPOSITORIO>
-cd <NOME_DO_PROJETO>
-npm install
-npm start
-
-A API será executada em http://localhost:3000.
-
-Tecnologias
-Node.js
-Express.js
-JavaScript
-JSON
-npm
-Rotas
-Método	Rota	Função
-GET	/patrimonios	Listar patrimônios
-GET	/patrimonios/:id	Buscar por ID
-POST	/patrimonios	Cadastrar patrimônio
-PUT	/patrimonios/:id	Atualizar patrimônio
-DELETE	/patrimonios/:id	Excluir patrimônio
-
-Exemplo de requisição
-GET /patrimonios/1
-
-Exemplo de resposta
-{
-  "id": "1",
-  "item": "Notebook Dell",
-  "local": "Laboratório 01",
-  "dataRegistro": "2026-09-10",
-  "valor": 3500.00,
-  "patrimonio": "PAT-00125"
-}
-
+API de PatrimônioSolução simples e prática para cadastrar, organizar e controlar os bens materiais da sua empresa ou instituição.🎯 O que esta API faz?Com esta API REST, você pode gerenciar o ciclo de vida completo dos seus patrimônios (itens, localização, datas de registro, valores e códigos de tombo):➕ Cadastrar novos patrimônios🔍 Consultar a lista completa ou buscar um item específico✏️ Atualizar informações existentes🗑️ Remover patrimônios do sistema🛠️ TecnologiasNode.js com Express.jsJavaScript (ES6+)npm (Gerenciador de pacotes)🚀 Como executar o projeto localmenteClone o repositório:Bashgit clone <URL_DO_REPOSITORIO>
+Acesse a pasta do projeto:Bashcd <NOME_DO_PROJETO>
+Instale as dependências:Bashnpm install
+Inicie o servidor:Bashnpm start
+Pronto! A API estará pronta para receber requisições em: http://localhost:3000🔗 Endpoints (Rotas)MétodoEndpointO que faz?GET/patrimoniosRetorna todos os patrimôniosGET/patrimonios/:idRetorna o patrimônio correspondente ao IDPOST/patrimoniosCria um novo registroPUT/patrimonios/:idAtualiza os dados de um patrimônio existenteDELETE/patrimonios/:idExclui o patrimônio do sistema
 # Evidencias:
 
 ![foto1](./foto1)
@@ -46,3 +11,5 @@ Exemplo de resposta
 ![foto4](./foto4)
 ![foto5](./foto5)
 ![foto6](./foto6)
+![foto5](./foto7)
+![foto6](./foto8)
