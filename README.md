@@ -41,8 +41,8 @@ Exemplo de resposta
 # Evidencias:
 
 ![foto1](./foto1)
-![foto1](./foto2)
-![foto1](./foto3)
-![foto1](./foto4)
-![foto1](./foto5)
-![foto1](./foto6)
+![foto2](./foto2)
+![foto3](./foto3)
+![foto4](./foto4)
+![foto5](./foto5)
+![foto6](./foto6)
